@@ -31,6 +31,21 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8568ab61-c6fc-43d7-bcf9-8fec20fa8bdf">
+    <name>ФичаБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фича БЭ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="5c936c62-bc5e-4946-b667-8d5b70ab7114">
     <name>ФичаА</name>
     <synonym>
