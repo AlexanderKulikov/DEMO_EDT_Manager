@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19337092-37cd-4af8-8e63-a5022b1dfee7">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19337092-37cd-4af8-8e63-a5022b1dfee7">
   <producedTypes>
     <objectType typeId="e891a7ed-83fb-4118-b37e-3b240175d8ce" valueTypeId="fec10b7e-edca-4c4d-a018-cef47b472a2e"/>
     <refType typeId="05e72d88-7e30-4c43-b365-c0ea47bce5a7" valueTypeId="dfe72370-0601-4200-919d-3d49e7fbc929"/>
@@ -30,4 +30,22 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="12bd6279-9e7b-4641-b977-7bb255069295">
+    <name>ФичаА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фича А</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
