@@ -36,6 +36,7 @@
       <key>ru</key>
       <value>Фича Эй</value>
     </synonym>
+    <comment>feature A</comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
